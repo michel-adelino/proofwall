@@ -15,7 +15,7 @@ interface EditWallUrlDialogProps {
 export function EditWallUrlDialog({ isOpen, onOpenChange, initialUrl }: EditWallUrlDialogProps) {
     // Parse URL to separate slug and base
     const getUrlParts = (url: string) => {
-        const origin = typeof window !== 'undefined' ? window.location.origin : 'https://creet.io'
+        const origin = typeof window !== 'undefined' ? window.location.origin : 'https://proofwall.io'
         const defaultBase = `${origin}/wall/`
 
         try {

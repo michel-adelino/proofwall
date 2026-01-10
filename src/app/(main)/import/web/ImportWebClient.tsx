@@ -63,7 +63,7 @@ export default function ImportWebClient({ sources }: ImportWebClientProps) {
                 </span>
             </div>
             <p className="text-zinc-500 text-sm mb-6">
-                Paste a URL and Creet will import your proof.
+                Paste a URL and ProofWall will import your proof.
             </p>
 
             <div className="mb-6">

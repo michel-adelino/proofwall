@@ -577,7 +577,7 @@ const SupportPanel = () => {
                 </p>
 
                 <a
-                    href="mailto:support@creet.io"
+                    href="mailto:support@proofwall.io"
                     className="inline-flex items-center gap-3 px-5 py-3 rounded-lg text-black font-semibold text-sm transition-all duration-200 hover:opacity-90"
                     style={{
                         backgroundColor: '#BFFF00',
@@ -585,7 +585,7 @@ const SupportPanel = () => {
                     }}
                 >
                     <MailIcon className="w-4 h-4" />
-                    support@creet.io
+                    support@proofwall.io
                 </a>
             </div>
         </div>

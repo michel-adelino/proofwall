@@ -18,7 +18,7 @@ export async function getCloudflareUploadUrl() {
             },
             body: JSON.stringify({
                 maxDurationSeconds: 3600, // 1 hour max
-                creator: "creet-app",
+                creator: "proofwall-app",
             }),
         }
     );

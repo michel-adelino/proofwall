@@ -9,7 +9,7 @@ interface LogoProps {
 }
 
 /**
- * Creet Shield Check Logo
+ * ProofWall Shield Check Logo
  * A reusable SVG logo component for the application
  */
 const Logo: React.FC<LogoProps> = ({

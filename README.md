@@ -1,13 +1,13 @@
 <p align="center">
-  <a href="https://creet.io" target="_blank">
-    <img src="public/icon.svg" alt="Creet.io Logo" width="80" height="80">
+  <a href="https://proofwall.io" target="_blank">
+    <img src="public/icon.svg" alt="ProofWall Logo" width="80" height="80">
   </a>
 </p>
 
-<h1 align="center">Creet.io</h1>
+<h1 align="center">ProofWall</h1>
 
 <p align="center">
-  <a href="https://creet.io" target="_blank"><strong>🌐 Visit Creet.io</strong></a>
+  <a href="https://proofwall.io" target="_blank"><strong>🌐 Visit ProofWall</strong></a>
 </p>
 
 <p align="center">
@@ -44,9 +44,9 @@
 
 ## 🌟 Overview
 
-**Creet.io** is a powerful, feature-rich platform for collecting, managing, and displaying customer testimonials. Unlike expensive proprietary solutions, Creet.io gives you complete control over your testimonial data while providing enterprise-grade features at zero cost.
+**ProofWall** is a powerful, feature-rich platform for collecting, managing, and displaying customer testimonials. Unlike expensive proprietary solutions, ProofWall gives you complete control over your testimonial data while providing enterprise-grade features at zero cost.
 
-Whether you're an individual creator, a startup, or an enterprise, Creet.io helps you leverage the power of social proof to build trust and convert more customers.
+Whether you're an individual creator, a startup, or an enterprise, ProofWall helps you leverage the power of social proof to build trust and convert more customers.
 
 ---
 
@@ -100,8 +100,8 @@ You will also need:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/creet/creet.io.git
-cd creet.io
+git clone https://github.com/your-username/proofwall.git
+cd proofwall
 ```
 
 ### 2. Install Dependencies
@@ -116,14 +116,14 @@ pnpm install
 
 ### 3. Set Up Supabase
 
-Supabase is **required** for Creet.io to function. It provides the database, authentication, and file storage.
+Supabase is **required** for ProofWall to function. It provides the database, authentication, and file storage.
 
 #### Step 1: Create a Supabase Project
 
 1. Go to [Supabase Dashboard](https://supabase.com/dashboard)
 2. Click **"New Project"**
 3. Enter your project details:
-   - **Name**: Choose a name (e.g., `creet`)
+   - **Name**: Choose a name (e.g., `proofwall`)
    - **Database Password**: Generate a strong password (save this!)
    - **Region**: Select the region closest to your users
 4. Click **"Create new project"** and wait for it to be ready
@@ -369,7 +369,7 @@ The complete database schema is in `supabase/setup.sql`. Here's what it creates:
 
 ### Other Platforms
 
-Creet.io can be deployed on any platform that supports Next.js:
+ProofWall can be deployed on any platform that supports Next.js:
 
 - **Netlify** - [Deploy Guide](https://docs.netlify.com/frameworks/next-js/overview/)
 - **Railway** - [Deploy Guide](https://railway.app/)
@@ -386,7 +386,7 @@ We welcome contributions from developers of all skill levels!
 - 🎨 **Designers** - Help improve our UI/UX
 - 💻 **Developers** - Add features and fix bugs  
 - 📝 **Writers** - Improve documentation
-- 🌐 **Translators** - Help make Creet.io multilingual
+- 🌐 **Translators** - Help make ProofWall multilingual
 - 🧪 **Testers** - Help us find and fix issues
 
 ### How to Contribute
@@ -401,7 +401,7 @@ We welcome contributions from developers of all skill levels!
 
 ## 📄 License
 
-This project is licensed under the **Creet.io Community License v1.0**.
+This project is licensed under the **ProofWall Community License v1.0**.
 
 ### Quick Summary
 
@@ -422,14 +422,6 @@ See the [LICENSE](LICENSE) file for full legal terms.
 
 ---
 
-## 💬 Support
-
-- 📧 **Email**: support@creet.io
-- 🐛 **Issues**: [GitHub Issues](https://github.com/creet/creet.io/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/creet/creet.io/discussions)
-
----
-
 <p align="center">
-  Made with ❤️ by the Creet.io Community
+  Made with ❤️ by the ProofWall Community
 </p>

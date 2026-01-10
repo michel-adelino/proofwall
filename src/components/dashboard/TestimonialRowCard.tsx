@@ -42,6 +42,7 @@ const getSourceName = (source: string): string => {
     if (s.includes("video")) return "Video";
     if (s.includes("email")) return "Email";
     if (s.includes("manual")) return "Manual";
+    if (s.includes("creet") || s.includes("proofwall")) return "ProofWall";
     if (s.includes("facebook")) return "Facebook";
     if (s.includes("google")) return "Google";
     if (s.includes("airbnb")) return "Airbnb";

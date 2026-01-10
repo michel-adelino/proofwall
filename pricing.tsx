@@ -65,7 +65,7 @@ export default function Pricing() {
                             </div>
                         </div>
 
-                        <a href="https://app.creet.io" className="mb-8 block">
+                        <a href="https://app.proofwall.io" className="mb-8 block">
                             <Button variant="outline" className="w-full h-12 rounded-full font-semibold border-white/10 hover:bg-white/5">
                                 Start for Free
                             </Button>
@@ -76,7 +76,7 @@ export default function Pricing() {
                             <FeatureItem included={true} text="1 Project / Workspace" />
                             <FeatureItem included={true} text="2 Minutes Max Video Duration" />
                             <FeatureItem included={true} text="Standard Video Quality (720p)" />
-                            <FeatureItem included={false} text="Remove 'Powered by Creet' Branding" bold={true} />
+                            <FeatureItem included={false} text="Remove 'Powered by ProofWall' Branding" bold={true} />
                             <FeatureItem included={false} text="Import from Social Media" />
                             <FeatureItem included={false} text="Premium Widget Designs" />
                         </div>
@@ -103,7 +103,7 @@ export default function Pricing() {
                             </div>
                         </div>
 
-                        <a href="https://app.creet.io/pricing" className="mb-8 block">
+                        <a href="https://app.proofwall.io/pricing" className="mb-8 block">
                             <Button className="w-full h-12 rounded-full font-bold bg-primary text-primary-foreground hover:bg-primary/90">
                                 Buy Now
                             </Button>
@@ -149,7 +149,7 @@ export default function Pricing() {
                             </div>
                         </div>
 
-                        <a href="https://app.creet.io/pricing" className="mb-8 block">
+                        <a href="https://app.proofwall.io/pricing" className="mb-8 block">
                             <Button className="w-full h-12 rounded-full font-bold bg-gradient-to-r from-amber-500 to-yellow-500 text-black hover:opacity-90 transition-opacity border-0">
                                 Get Lifetime Access
                             </Button>

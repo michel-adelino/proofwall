@@ -78,9 +78,9 @@ export function ShareWidgetPanel({ isOpen, onClose, widgetId, widgetName }: Shar
     }
 
     // Generate embed code based on widget ID
-    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://creet.io'
+    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://proofwall.io'
     const embedCode = `<script src="${origin}/embed.js" async></script>
-<div class="creet-widget" data-id="${widgetId}"></div>`
+<div class="proofwall-widget" data-id="${widgetId}"></div>`
 
     const widgetLink = `${origin}/w/${widgetId}`
 
@@ -247,7 +247,7 @@ export function ShareWidgetPanel({ isOpen, onClose, widgetId, widgetName }: Shar
                                                 <span className="text-white"> </span>
                                                 <span className="text-cyan-400">class</span>
                                                 <span className="text-white">=</span>
-                                                <span className="text-emerald-400">{`"creet-widget"`}</span>
+                                                <span className="text-emerald-400">{`"proofwall-widget"`}</span>
                                                 <span className="text-white"> </span>
                                                 <span className="text-cyan-400">data-id</span>
                                                 <span className="text-white">=</span>

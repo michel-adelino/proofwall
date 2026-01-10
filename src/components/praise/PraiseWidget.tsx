@@ -27,7 +27,7 @@ export function PraiseWidget({
   showSource = true,
   compact = false,
   className,
-  ariaLabel = "Creet testimonials",
+  ariaLabel = "ProofWall testimonials",
   colorConfig,
 }: PraiseWidgetProps) {
   if (!testimonials?.length) {

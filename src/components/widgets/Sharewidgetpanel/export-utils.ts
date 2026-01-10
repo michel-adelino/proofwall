@@ -57,7 +57,7 @@ export const downloadWidgetImage = async (widgetId: string, format: ExportFormat
         }
 
         const link = document.createElement('a');
-        link.download = `creet-widget-${widgetId}.${format}`;
+        link.download = `proofwall-widget-${widgetId}.${format}`;
         link.href = dataUrl;
         link.click();
     } catch (err) {

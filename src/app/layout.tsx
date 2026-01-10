@@ -20,7 +20,7 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Creet",
+  title: "ProofWall",
   description: "Collect and showcase trusted testimonials",
   icons: {
     icon: [

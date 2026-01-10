@@ -124,7 +124,7 @@ const FormBuilderSidebar = ({ pages, onTogglePage }: Props) => {
             <label className="text-sm font-medium text-gray-400">Logo</label>
             <div className="bg-black/20 rounded-lg p-6 flex items-center justify-center border border-gray-800">
               <Logo size={32} className="mr-2" />
-              <span className="text-white text-3xl font-bold">Creet</span>
+              <span className="text-white text-3xl font-bold">ProofWall</span>
             </div>
           </div>
 
@@ -151,7 +151,7 @@ const FormBuilderSidebar = ({ pages, onTogglePage }: Props) => {
           </div>
 
           <div className="flex items-center justify-between">
-            <label className="text-sm font-medium text-gray-400">Show Creet Powered By</label>
+            <label className="text-sm font-medium text-gray-400">Show ProofWall Powered By</label>
             <div className="relative">
               <input type="checkbox" id="power-toggle" className="sr-only peer" defaultChecked />
               <label htmlFor="power-toggle" className="flex items-center cursor-pointer w-12 h-6 bg-gray-700 rounded-full p-1 peer-checked:bg-purple-600 transition-colors">

@@ -257,7 +257,7 @@ const Sidebar = ({ user, profile, projects }: SidebarProps) => {
       <div className="lg:hidden fixed top-0 left-0 right-0 z-50 bg-[#0F0F11]/95 backdrop-blur-sm border-b border-white/[0.04] px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Logo size={28} />
-          <span className="font-bold text-white text-lg">Creet</span>
+          <span className="font-bold text-white text-lg">ProofWall</span>
         </div>
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -394,14 +394,14 @@ const Sidebar = ({ user, profile, projects }: SidebarProps) => {
         className="hidden lg:flex lg:sticky lg:top-0 lg:h-screen lg:w-64 lg:flex-col bg-[#0F0F11] border-r border-white/[0.04]"
       >
         <div className="flex h-full flex-col">
-          {/* 1. Creet Logo Section - Top */}
+          {/* 1. ProofWall Logo Section - Top */}
           <div className="flex-shrink-0 p-6">
             <div className="flex items-center gap-3">
               <div className="size-9 flex items-center justify-center">
                 <Logo size={36} />
               </div>
               <div>
-                <h1 className="text-lg font-bold text-white tracking-tight">Creet</h1>
+                <h1 className="text-lg font-bold text-white tracking-tight">ProofWall</h1>
               </div>
             </div>
           </div>

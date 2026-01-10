@@ -1,6 +1,6 @@
 (function () {
     function initEmbeds() {
-        const widgets = document.querySelectorAll('.creet-widget');
+        const widgets = document.querySelectorAll('.proofwall-widget, .creet-widget');
         widgets.forEach(function (container) {
             // Prevent double-rendering
             if (container.dataset.rendered) return;
@@ -10,7 +10,7 @@
 
             // Determine the base URL from the script source
             // This allows the embed to work in Localhost and Production automatically
-            let baseUrl = 'https://creet.io';
+            let baseUrl = 'https://proofwall.io';
             const script = document.querySelector('script[src*="/embed.js"]');
             if (script && script.src) {
                 try {
@@ -26,7 +26,7 @@
             iframe.style.minHeight = '600px'; // Default minimum height
             iframe.style.border = 'none';
             iframe.style.overflow = 'hidden';
-            iframe.title = 'Creet Widget';
+            iframe.title = 'ProofWall Widget';
             iframe.setAttribute('loading', 'lazy');
 
             // Listen for resize messages from the widget
@@ -36,7 +36,7 @@
 
                 try {
                     const data = typeof e.data === 'string' ? JSON.parse(e.data) : e.data;
-                    if (data.type === 'creet-resize' && data.height) {
+                    if ((data.type === 'proofwall-resize' || data.type === 'creet-resize') && data.height) {
                         iframe.style.height = data.height + 'px';
                     }
                 } catch (err) {

@@ -1,5 +1,5 @@
 -- ==============================================================================
--- Creet.io - Complete Supabase Setup Script
+-- ProofWall - Complete Supabase Setup Script
 -- ==============================================================================
 -- Description: This script sets up the full backend schema including tables for
 -- projects, forms, customers, testimonials, walls, widgets, and user profiles.

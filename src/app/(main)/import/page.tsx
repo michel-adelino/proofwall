@@ -69,7 +69,7 @@ export default function ImportPage() {
 
                         {/* Description */}
                         <p className="text-sm text-zinc-500 leading-relaxed mb-6">
-                            Paste a URL and Creet will import your proof.
+                            Paste a URL and ProofWall will import your proof.
                         </p>
 
                         {/* Brand Logos Grid - 2 rows of 4 */}
@@ -99,7 +99,7 @@ export default function ImportPage() {
 
                         {/* Description */}
                         <p className="text-sm text-zinc-500 leading-relaxed">
-                            Upload a CSV, XLS or XLSX file and Creet will import your proof.
+                            Upload a CSV, XLS or XLSX file and ProofWall will import your proof.
                         </p>
                     </div>
                 </button>
@@ -117,7 +117,7 @@ export default function ImportPage() {
 
                         {/* Description */}
                         <p className="text-sm text-zinc-500 leading-relaxed">
-                            Manually add video, text or screengrab proof to your account. Creet will transcribe your videos and screengrabs.
+                            Manually add video, text or screengrab proof to your account. ProofWall will transcribe your videos and screengrabs.
                         </p>
                     </div>
                 </Link>

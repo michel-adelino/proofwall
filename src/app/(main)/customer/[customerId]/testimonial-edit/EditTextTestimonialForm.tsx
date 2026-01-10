@@ -245,7 +245,7 @@ export function EditTextTestimonialForm({ testimonial, onClose, isEmbedded = fal
                                 <Input
                                     value={postUrl}
                                     onChange={(e) => setPostUrl(e.target.value)}
-                                    placeholder="https://creet.com"
+                                    placeholder="https://proofwall.io"
                                     className="bg-zinc-900/50 border-zinc-800 h-10 pl-9 text-zinc-200 placeholder:text-zinc-600 focus:ring-zinc-700 rounded-lg"
                                 />
                                 <LinkIcon className="absolute left-3 top-2.5 size-4 text-zinc-500 pointer-events-none" />

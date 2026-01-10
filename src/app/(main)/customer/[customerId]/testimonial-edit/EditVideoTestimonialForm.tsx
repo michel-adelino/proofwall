@@ -45,7 +45,8 @@ export function EditVideoTestimonialForm({ testimonial, onClose, isEmbedded = fa
 
     // New Fields State
     const [postUrl, setPostUrl] = useState(testimonial.raw?.data?.original_post_url || "");
-    const [source, setSource] = useState(testimonial.source?.toLowerCase() || testimonial.raw?.data?.source || "creet");
+    const initialSource = (testimonial.source?.toLowerCase() || testimonial.raw?.data?.source || "proofwall");
+    const [source, setSource] = useState(initialSource === "creet" ? "proofwall" : initialSource);
 
     // Date initialization
     const initialDate = testimonial.raw?.data?.testimonial_date
@@ -482,10 +483,10 @@ export function EditVideoTestimonialForm({ testimonial, onClose, isEmbedded = fa
                                         </div>
                                     </SelectTrigger>
                                     <SelectContent className="bg-zinc-900 border-zinc-800 text-zinc-300 [&_[data-radix-select-viewport]]:max-h-[200px]">
-                                        <SelectItem value="creet">
+                                        <SelectItem value="proofwall">
                                             <div className="flex items-center gap-2">
                                                 <img src="/logo.svg" alt="Logo" className="size-4" />
-                                                <span>Creet</span>
+                                                <span>ProofWall</span>
                                             </div>
                                         </SelectItem>
                                         <SelectItem value="manual">Manual</SelectItem>
@@ -527,7 +528,7 @@ export function EditVideoTestimonialForm({ testimonial, onClose, isEmbedded = fa
                                 <Input
                                     value={postUrl}
                                     onChange={(e) => setPostUrl(e.target.value)}
-                                    placeholder="https://creet.com"
+                                    placeholder="https://proofwall.io"
                                     className="w-full bg-zinc-900 border-zinc-800 h-10 text-zinc-200 placeholder:text-zinc-600 focus:ring-zinc-700 rounded-lg"
                                 />
                             </div>

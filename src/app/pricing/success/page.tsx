@@ -52,7 +52,7 @@ export default function PaymentSuccessPage() {
                         </li>
                         <li className="flex items-center gap-3">
                             <CheckCircle className="w-4 h-4 text-[#BFFF00]" />
-                            Remove "Powered by Creet" Branding
+                            Remove "Powered by ProofWall" Branding
                         </li>
                         <li className="flex items-center gap-3">
                             <CheckCircle className="w-4 h-4 text-[#BFFF00]" />

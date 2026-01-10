@@ -300,7 +300,7 @@ export default function PricingPage() {
                         Looking for custom limits, dedicated support, or custom integrations?
                         We offer tailored plans for high-volume agencies and enterprises.
                     </p>
-                    <a href="mailto:support@creet.io">
+                    <a href="mailto:support@proofwall.io">
                         <Button variant="secondary" className="bg-white text-black hover:bg-zinc-200 font-bold px-8 h-12 rounded-full">
                             Contact Sales
                         </Button>

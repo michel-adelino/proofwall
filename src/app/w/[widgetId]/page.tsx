@@ -16,12 +16,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     if (!widget) {
         return {
-            title: "Widget Not Found | Creet",
+            title: "Widget Not Found | ProofWall",
         }
     }
 
     return {
-        title: `${widget.name} | Creet Widget`,
+        title: `${widget.name} | ProofWall Widget`,
         description: `View testimonials widget: ${widget.name}`,
     }
 }

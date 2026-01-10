@@ -9,13 +9,13 @@
  * imports. This handles user authentication, file uploads to Supabase storage,
  * and sending notifications to the API.
  *
- * API Endpoint: https://creet.io/api/notify
+ * API Endpoint: https://proofwall.io/api/notify
  */
 
 import { createClient } from "@/lib/supabase/server";
 import { createClient as createAdminClient } from "@supabase/supabase-js";
 
-const NOTIFY_API_URL = "https://www.creet.io/api/notify";
+const NOTIFY_API_URL = "https://www.proofwall.io/api/notify";
 
 // Admin client for storage uploads (bypasses RLS)
 function getAdminClient() {

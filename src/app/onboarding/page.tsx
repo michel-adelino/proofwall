@@ -79,7 +79,7 @@ export default function OnboardingPage() {
                         className="text-3xl font-bold text-white mb-3 tracking-tight"
                         style={{ fontFamily: 'var(--font-heading)' }}
                     >
-                        Welcome to Creet
+                        Welcome to ProofWall
                     </h1>
                     <p className="text-zinc-400 text-base leading-relaxed">
                         Let's create your first project to get started
@@ -158,7 +158,7 @@ export default function OnboardingPage() {
                 <p className="text-center text-sm text-zinc-500 mt-8">
                     Need help?{" "}
                     <a
-                        href="mailto:support@creet.io"
+                        href="mailto:support@proofwall.io"
                         className="text-white hover:text-zinc-300 underline underline-offset-2 transition-colors"
                     >
                         Get in touch
